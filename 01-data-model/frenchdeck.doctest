@@ -43,6 +43,7 @@ Rank test:
 >>> spades_high(Card('A', 'spades'))
 51
 
+
 >>> for card in sorted(deck, key=spades_high):  # doctest: +ELLIPSIS
 ...      print(card)
 Card(rank='2', suit='clubs')
